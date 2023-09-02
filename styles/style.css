@@ -1,7 +1,7 @@
 body {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 92px 0 90px;
+  /*padding: 92px 0 90px;*/
 }
 
 .header,
@@ -220,7 +220,7 @@ span {
   flex-shrink: 0;
 }
 
-.card_type_book{
+.card_type_book {
   background-image: url(../images/card-lot-02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
