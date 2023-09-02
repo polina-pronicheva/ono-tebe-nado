@@ -60,6 +60,7 @@ body {
   width: 240px;
   height: 97px;
   line-height: 24.3px;
+  text-underline-offset: 3px;
 }
 
 address {
