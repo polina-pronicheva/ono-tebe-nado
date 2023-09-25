@@ -209,23 +209,27 @@ span {
   flex-wrap: wrap;
   list-style: none;
   gap: 25px;
+  flex-shrink: 0;
 }
 
 .lots__card-list-item {
   position: relative;
   margin-bottom: 30px;
+  width: 430px;
   height: 100%;
   flex-grow: 1;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: 430px;
   min-height: 450px;
   flex-shrink: 0;
-  position: relative;
+  padding-bottom: 50px;
 }
 
 .card_type_film {
@@ -252,7 +256,6 @@ span {
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
-  position: absolute;
   z-index: 1;
 }
 
@@ -260,11 +263,6 @@ span {
   margin-left: 40px;
   margin-right: 40px;
   text-align: left;
-  align-items: flex-end;
-  min-height: 96px;
-  position: absolute;
-  left: 0px;
-  bottom: 50px;
   color: #FFF;
   font-size: 20px;
   font-style: normal;
@@ -331,11 +329,12 @@ span {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-align: justify;
+  padding-bottom: 25px;
+  text-align: left;
 }
 
-.first-p {
-  padding-bottom: 25px;
+.about__text:last-child {
+  padding-bottom: 0px;
 }
 
 .footer {
