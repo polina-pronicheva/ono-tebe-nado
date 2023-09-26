@@ -14,10 +14,9 @@ body {
 
 .header {
   margin: 92px 50px 92px 50px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  position: relative;
 }
 
 .header__menu {
@@ -52,16 +51,11 @@ body {
 .header__logo {
   display: block;
   flex-shrink: 0;
-  margin-bottom: 4px;
-  position: absolute;
-  left: 44.5%;
-  top: 0px;;
 }
 
 .header__logo-image {
   height: 105px;
   width: 148px;
-  margin-bottom: 4px;
 }
 
 address {
@@ -72,11 +66,11 @@ address {
   width: 240px;
   line-height: 24.3px;
   text-underline-offset: 3px;
-  margin-top: 5px;
   color: #000;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
+  justify-self: end;
 }
 
 .cover {
@@ -86,7 +80,6 @@ address {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 96px;
   margin-bottom: 180px;
   position: relative;
 }
@@ -264,8 +257,6 @@ span {
   margin-right: 40px;
   text-align: left;
   color: #FFF;
-  font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: 120%;
   z-index: 1;
