@@ -213,6 +213,10 @@ span {
   flex-grow: 1;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -257,6 +261,8 @@ span {
   margin-right: 40px;
   text-align: left;
   color: #FFF;
+  font-size: 20px;
+  font-style: normal;
   font-weight: 400;
   line-height: 120%;
   z-index: 1;
